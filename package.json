@@ -1,6 +1,6 @@
 {
-  "name": "@pancakeswap/interface",
-  "description": "Pancakeswap Interface",
+  "name": "@gambiarrafinance/troca-interface",
+  "description": "Gambiarra Finance Troca Interface",
   "homepage": ".",
   "private": true,
   "dependencies": {

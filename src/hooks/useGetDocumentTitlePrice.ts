@@ -4,7 +4,7 @@ import useGetPriceData from './useGetPriceData'
 const useGetDocumentTitlePrice = () => {
   const priceData = useGetPriceData()
 
-  const cakePriceUsd = priceData ? parseFloat(priceData.prices.Cake) : 0
+  const cakePriceUsd = priceData ? parseFloat(priceData.prices.GAMB) : 0
 
   const cakePriceUsdString =
     Number.isNaN(cakePriceUsd) || cakePriceUsd === 0
@@ -15,7 +15,7 @@ const useGetDocumentTitlePrice = () => {
         })}`
 
   useEffect(() => {
-    document.title = `PancakeSwap${cakePriceUsdString}`
+    document.title = `Gambiarra.Finance${cakePriceUsdString}`
   }, [cakePriceUsdString])
 }
 export default useGetDocumentTitlePrice

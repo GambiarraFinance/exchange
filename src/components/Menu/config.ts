@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://pancakeswap.finance/',
+    href: 'https://gambiarra.finance/',
   },
   {
     label: 'Trade',
@@ -24,22 +24,22 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://pancakeswap.finance/farms',
+    href: 'https://gambiarra.finance/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://pancakeswap.finance/syrup',
+    href: 'https://gambiarra.finance/syrup',
   },
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: 'https://pancakeswap.finance/lottery',
+    href: 'https://gambiarra.finance/lottery',
   },
   {
     label: 'NFT',
     icon: 'NftIcon',
-    href: 'https://pancakeswap.finance/nft',
+    href: 'https://gambiarra.finance/nft',
   },
   {
     label: 'Teams & Profile',
@@ -48,15 +48,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Leaderboard',
-        href: 'https://pancakeswap.finance/teams',
+        href: 'https://gambiarra.finance/teams',
       },
       {
         label: 'Task Center',
-        href: 'https://pancakeswap.finance/profile/tasks',
+        href: 'https://gambiarra.finance/profile/tasks',
       },
       {
         label: 'Your Profile',
-        href: 'https://pancakeswap.finance/profile',
+        href: 'https://gambiarra.finance/profile',
       },
     ],
   },
